@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-g++"
+	BuildStamp="20231202-1103-Experimental"
+	Name="marek-PC-HOME"
+	Generator="ctest-3.27.6"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="marek-PC-HOME"
+	OSRelease="6.2.0-37-generic"
+	OSVersion="#38~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov  2 18:01:13 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="33"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="7628"
+	TotalPhysicalMemory="31962"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4612.17"
+	>
+	<Testing>
+		<StartDateTime>Dec 02 22:16 CET</StartDateTime>
+		<StartTestTime>1701551779</StartTestTime>
+		<TestList/>
+		<EndDateTime>Dec 02 22:16 CET</EndDateTime>
+		<EndTestTime>1701551779</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

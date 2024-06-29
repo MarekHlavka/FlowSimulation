@@ -1,0 +1,20 @@
+libs/SDL-main/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o: \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/SDL_nullevents.c \
+ /usr/include/stdc-predef.h \
+ /home/marek/School/Flow/libs/SDL-main/src/SDL_internal.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/../../events/SDL_events_c.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/../../events/../video/SDL_sysvideo.h \
+ /home/marek/School/Flow/libs/SDL-main/include/SDL3/SDL_vulkan.h \
+ /home/marek/School/Flow/libs/SDL-main/include/SDL3/SDL_video.h \
+ /home/marek/School/Flow/libs/SDL-main/include/SDL3/SDL_begin_code.h \
+ /home/marek/School/Flow/libs/SDL-main/include/SDL3/SDL_close_code.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/../../events/SDL_clipboardevents_c.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/../../events/SDL_displayevents_c.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/../../events/SDL_dropevents_c.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/../../events/SDL_keyboard_c.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/../../events/SDL_mouse_c.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/../../events/SDL_touch_c.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/../../events/SDL_windowevents_c.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/SDL_nullvideo.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/../SDL_sysvideo.h \
+ /home/marek/School/Flow/libs/SDL-main/src/video/dummy/SDL_nullevents_c.h

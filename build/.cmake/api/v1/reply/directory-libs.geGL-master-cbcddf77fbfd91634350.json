@@ -1,0 +1,160 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libs/geGL-master/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 141,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 148,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 180,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 193,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/geGL-master/libgeGL.a"
+			],
+			"targetId" : "geGL::@1e2f7df5e9e742650113",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Devel",
+			"destination" : "include/geGL",
+			"paths" : 
+			[
+				"libs/geGL-master/src/geGL/Fwd.h",
+				"libs/geGL-master/src/geGL/Definitions.h",
+				"libs/geGL-master/src/geGL/Buffer.h",
+				"libs/geGL-master/src/geGL/VertexArray.h",
+				"libs/geGL-master/src/geGL/Framebuffer.h",
+				"libs/geGL-master/src/geGL/Texture.h",
+				"libs/geGL-master/src/geGL/Sampler.h",
+				"libs/geGL-master/src/geGL/ProgramPipeline.h",
+				"libs/geGL-master/src/geGL/Shader.h",
+				"libs/geGL-master/src/geGL/Program.h",
+				"libs/geGL-master/src/geGL/ProgramInfo.h",
+				"libs/geGL-master/src/geGL/Renderbuffer.h",
+				"libs/geGL-master/src/geGL/OpenGL.h",
+				"libs/geGL-master/src/geGL/OpenGLUtil.h",
+				"libs/geGL-master/src/geGL/AsynchronousQuery.h",
+				"libs/geGL-master/src/geGL/DebugMessage.h",
+				"libs/geGL-master/src/geGL/OpenGLObject.h",
+				"libs/geGL-master/src/geGL/geGL.h",
+				"libs/geGL-master/src/geGL/OpenGLFunctionTable.h",
+				"libs/geGL-master/src/geGL/OpenGLContext.h",
+				"libs/geGL-master/src/geGL/OpenGLCapabilities.h",
+				"libs/geGL-master/src/geGL/FunctionLoaderInterface.h",
+				"libs/geGL-master/src/geGL/DefaultLoader.h",
+				"libs/geGL-master/src/geGL/LoaderTableDecorator.h",
+				"libs/geGL-master/src/geGL/DSATableDecorator.h",
+				"libs/geGL-master/src/geGL/TrapTableDecorator.h",
+				"libs/geGL-master/src/geGL/CapabilitiesTableDecorator.h",
+				"libs/geGL-master/src/geGL/StaticCalls.h",
+				"libs/geGL-master/src/geGL/GLSLNoise.h",
+				"build/libs/geGL-master/geGL/gegl_export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "include/geGL/Generated",
+			"paths" : 
+			[
+				"libs/geGL-master/src/geGL/Generated/ContextCalls.h",
+				"libs/geGL-master/src/geGL/Generated/ContextDeclarations.h",
+				"libs/geGL-master/src/geGL/Generated/FunctionTableCalls.h",
+				"libs/geGL-master/src/geGL/Generated/LoaderImplementation.h",
+				"libs/geGL-master/src/geGL/Generated/LoaderLoadingCalls.h",
+				"libs/geGL-master/src/geGL/Generated/NumberOfFunctions.h",
+				"libs/geGL-master/src/geGL/Generated/MemberOpenGLFunctions.h",
+				"libs/geGL-master/src/geGL/Generated/MemberOpenGLPFN.h",
+				"libs/geGL-master/src/geGL/Generated/OpenGLConstants.h",
+				"libs/geGL-master/src/geGL/Generated/OpenGLFunctions.h",
+				"libs/geGL-master/src/geGL/Generated/OpenGLPFN.h",
+				"libs/geGL-master/src/geGL/Generated/OpenGLTypes.h",
+				"libs/geGL-master/src/geGL/Generated/TrapCalls.h",
+				"libs/geGL-master/src/geGL/Generated/TrapImplementation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/geGL",
+			"exportName" : "geGLTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "geGL::@1e2f7df5e9e742650113",
+					"index" : 6
+				}
+			],
+			"paths" : 
+			[
+				"libs/geGL-master/CMakeFiles/Export/5393ca3d7db93097ba02c25a5cd379af/geGLTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/geGL",
+			"paths" : 
+			[
+				"build/libs/geGL-master/geGL/geGLConfig.cmake",
+				"build/libs/geGL-master/geGL/geGLConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/geGL-master",
+		"source" : "libs/geGL-master"
+	}
+}

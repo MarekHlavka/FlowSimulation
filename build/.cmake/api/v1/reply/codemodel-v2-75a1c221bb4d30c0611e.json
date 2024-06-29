@@ -1,0 +1,303 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						8
+					]
+				},
+				{
+					"build" : "libs/SDL2-2.28.4",
+					"jsonFile" : "directory-libs.SDL2-2.28.4-86e0ad477c39805148fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/SDL2-2.28.4",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "libs/geGL-master",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.geGL-master-cbcddf77fbfd91634350.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libs/geGL-master",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "libs/glm-0.9.9.8",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-libs.glm-0.9.9.8-6a543b23c11428302ebf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "libs/glm-0.9.9.8"
+				},
+				{
+					"build" : "libs/glm-0.9.9.8/glm",
+					"jsonFile" : "directory-libs.glm-0.9.9.8.glm-5073fabef5f833c9f0fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "libs/glm-0.9.9.8/glm"
+				},
+				{
+					"build" : "libs/glfw-3.3.8",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.glfw-3.3.8-90ce3c60a60b533ddf13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "libs/glfw-3.3.8"
+				},
+				{
+					"build" : "libs/glfw-3.3.8/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.glfw-3.3.8.src-a509e7a28280322f5b4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "libs/glfw-3.3.8/src",
+					"targetIndexes" : 
+					[
+						7,
+						11
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PGPa",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "geGL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "glm",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ImGui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ImGui-85b50ec644088586dfb8.json",
+					"name" : "ImGui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PGPa::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PGPa-a9c5cad0c87b96ebd8df.json",
+					"name" : "PGPa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2::@69310c99c15c2f1d5061",
+					"jsonFile" : "target-SDL2-9794f0e33d942e084dd8.json",
+					"name" : "SDL2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2-static::@69310c99c15c2f1d5061",
+					"jsonFile" : "target-SDL2-static-ea81013b0bc2dfbac34e.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2_test::@69310c99c15c2f1d5061",
+					"jsonFile" : "target-SDL2_test-39da2ac805d65201939d.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2main::@69310c99c15c2f1d5061",
+					"jsonFile" : "target-SDL2main-7373d6d567886b5b415a.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "geGL::@1e2f7df5e9e742650113",
+					"jsonFile" : "target-geGL-2567b0c981d7afe0cd55.json",
+					"name" : "geGL",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glfw::@23897e2ccf1739bba4fd",
+					"jsonFile" : "target-glfw-2e0894f5217e539f9bb2.json",
+					"name" : "glfw",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run-3bfa46c9b458eaecdd7f.json",
+					"name" : "run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sdl_headers_copy::@69310c99c15c2f1d5061",
+					"jsonFile" : "target-sdl_headers_copy-1513dbce97e5957488a8.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@69310c99c15c2f1d5061",
+					"jsonFile" : "target-uninstall-a063c57f6cd4eb2e2bcc.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "update_mappings::@23897e2ccf1739bba4fd",
+					"jsonFile" : "target-update_mappings-486416235ebcb17f7def.json",
+					"name" : "update_mappings",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/marek/School/Flow/build",
+		"source" : "/home/marek/School/Flow"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
